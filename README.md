@@ -16,7 +16,7 @@
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/crowd-behavior-riot-detection.git
+git clone https://github.com/Ashwini-e20/crowd-behavior-riot-detection.git
 cd crowd-behavior-riot-detection
 pip install -r requirements.txt
 python src/detection.py
