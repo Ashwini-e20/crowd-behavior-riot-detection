@@ -108,6 +108,8 @@ def detect_people_and_weapons(frame, yolo_people_model, yolo_weapon_model):
     return last_people_count, all_detections, last_weapon_count
 
 
+
+
 # --- FEATURE EXTRACTION ---
 def extract_features(frames, efficientnet_model):
     """Extracts features from a sequence of frames using EfficientNet."""

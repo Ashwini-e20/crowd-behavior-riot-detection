@@ -10,6 +10,13 @@ import threading
 import time
 from werkzeug.utils import secure_filename 
 import shutil 
+from playsound import playsound
+import threading
+import time
+
+def play_alert_sound():
+    """Play alert sound asynchronously to avoid blocking."""
+    threading.Thread(target=lambda: playsound("static/alert.wav"), daemon=True).start()
 
 
 # --- Setup ---
